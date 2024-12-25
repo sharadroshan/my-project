@@ -95,7 +95,7 @@ const Home = () => {
     <div className="flex justify-center items-center min-h-screen bg-gray-100 relative p-4">
       <div className="bg-white rounded-3xl shadow-lg border border-indigo-500 max-w-md w-full sm:w-3/4 md:w-1/2 lg:w-1/3 xl:w-1/4">
         <h2 className="text-2xl font-semibold  text-center bg-indigo-500 p-3 text-white rounded-t-3xl">
-          User Information Test
+          User Information
         </h2>
         <div className="p-8">
           <form>
