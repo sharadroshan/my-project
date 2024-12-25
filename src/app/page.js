@@ -104,7 +104,7 @@ const Home = () => {
                 htmlFor="firstName"
                 className="block text-sm font-medium text-gray-700"
               >
-                First Name Test
+                First Name
               </label>
               <input
                 type="text"
