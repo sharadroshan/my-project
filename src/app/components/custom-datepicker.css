@@ -1,0 +1,97 @@
+/* Custom styles for the calendar popup */
+.custom-calendar {
+  background-color: #f9fafb; /* Light gray background */
+  border-radius: 12px; /* Rounded corners for a modern look */
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+}
+
+/* Customize the header (month navigation) */
+.custom-calendar .react-datepicker__header {
+  background-color: #6366f1; /* Indigo 500 background */
+  color: white; /* White text for contrast */
+  border-bottom: 2px solid #4f46e5; /* Slightly darker border */
+  border-radius: 12px 12px 0 0; /* Rounded corners for top */
+  padding: 10px 0; /* Adjust header padding */
+}
+
+.custom-calendar .react-datepicker__current-month {
+  font-size: 14px; /* Larger font for better readability */
+  font-weight: 600; /* Bold font weight */
+  text-transform: uppercase; /* Uppercase month for emphasis */
+  letter-spacing: 0.5px; /* Slight letter spacing for style */
+  color: white; /* White text color */
+}
+
+/* Style the navigation arrows */
+.custom-calendar .react-datepicker__navigation {
+  background-color: transparent;
+  border: none;
+  color: white; /* White arrows for visibility */
+  font-size: 18px; /* Increase arrow size for easy clicking */
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.custom-calendar .react-datepicker__navigation:hover {
+  color: #d1d5db; /* Light gray hover effect */
+}
+
+/* Style the days of the month */
+.custom-calendar .react-datepicker__day {
+  padding: 0px;
+  font-size: 16px; /* Slightly larger font for better visibility */
+  color: #4b5563]; /* Darker text color for contrast */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transitions */
+}
+
+.custom-calendar .react-datepicker__day--selected {
+  background-color: #6366f1; /* Indigo 500 background for selected day */
+  color: white; /* White text for selected day */
+  border-radius: 50%; /* Circle around selected date */
+  transition: background-color 0.3s ease; /* Smooth transition for selected state */
+}
+
+.custom-calendar .react-datepicker__day--selected:hover {
+  background-color: #4f46e5; /* Darker indigo when selected day is hovered */
+}
+
+/* Style for days that are not part of the current month */
+.custom-calendar .react-datepicker__day--outside-month {
+  color: #9ca3af; /* Light gray color for outside month days */
+}
+
+/* Hover effect on days */
+.custom-calendar .react-datepicker__day:hover {
+  background-color: #e2e8f0; /* Light gray background on hover */
+  color: #4b5563; /* Dark text color for readability */
+}
+
+/* Customize the footer and today button */
+.custom-calendar .react-datepicker__footer {
+  text-align: center;
+  padding: 12px 0;
+  background-color: #f9fafb; /* Same background as the calendar */
+  border-top: 1px solid #e5e7eb; /* Light border on top */
+}
+
+.custom-calendar .react-datepicker__today-button {
+  background-color: #6366f1; /* Indigo 500 background for the 'Today' button */
+  color: white; /* White text */
+  border-radius: 8px;
+  padding: 8px 18px;
+  font-size: 14px;
+  font-weight: 500; /* Slightly bold text */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.custom-calendar .react-datepicker__today-button:hover {
+  background-color: #4f46e5; /* Darker indigo on hover */
+}
+
+.react-datepicker__day-name {
+  color: white;
+}
+
+
+.react-datepicker__input-container{
+    width:353px !important
+}
